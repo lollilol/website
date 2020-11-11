@@ -1,0 +1,33 @@
+{
+  "squares": [
+    { "name": "social", "links": [
+        { "name": "reddit", "url": "/reddit" },
+        { "name": "instagram", "url": "/instagram" },
+        { "name": "twitter", "url": "/twitter" }
+      ]
+    },
+    { "name": "media", "links": [
+      { "name": "youtube", "url": "/yt" },
+      { "name": "spotify", "url": "/spotify" },
+      { "name": "twitch", "url": "/twitch" }
+    ]
+    },
+    { "name": "work", "links": [
+        { "name": "github", "url": "/github" },
+        { "name": "gitlab", "url": "/gitlab" },
+        { "name": "notabug", "url": "/notabug" }
+      ]
+    },
+    {
+      "name": "contact", "links": [
+        { "name": "telegram", "url": "/tg"},
+        { "name": "discord", "url": "/discord" },
+        { "name": "mail", "url": "mailto:lollilol@doorcraft.de"}
+      ]
+    }
+  ],
+  "user": "",
+  "disableMessage": true,
+  "disableDate": true,
+  "disableSearchBar": true
+}
