@@ -28,6 +28,6 @@
   ],
   "user": "",
   "disableMessage": true,
-  "disableDate": true,
+  "disableDate": false,
   "disableSearchBar": true
 }

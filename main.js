@@ -103,8 +103,11 @@ function updateTime() {
     date = currentDate.getDate()
     month = dateMap[currentDate.getMonth()]
     minutes = currentDate.getMinutes()
-    time = currentDate.getHours() + ":" + (minutes < 10 ? "0" + minutes : minutes)
-    finalDate = date + " " + month + ", " + time
+    seconds = currentDate.getSeconds()
+    //time = currentDate.getHours() + ":" + (minutes < 10 ? "0" + minutes : minutes)
+    time = currentDate.getHours() + ":" + (minutes < 10 ? "0" + minutes : minutes) + ":" + (seconds < 10 ? "0" + seconds : seconds)
+    //finalDate = date + " " + month + ", " + time
+    finalDate = time
     document.getElementById(dateId).textContent = finalDate
 }
 
@@ -112,7 +115,7 @@ function updateTimeHook() {
     updateTime()
     interval = setInterval(() => {
         updateTime()
-    }, 30 * 1000)
+    }, 10)
 }
 
 function inRange(number, min, max) {
