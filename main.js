@@ -99,16 +99,7 @@ function updateTime() {
     /**
      * Get the current time and date and return it.
      */
-    currentDate = new Date()
-    date = currentDate.getDate()
-    month = dateMap[currentDate.getMonth()]
-    minutes = currentDate.getMinutes()
-    seconds = currentDate.getSeconds()
-    //time = currentDate.getHours() + ":" + (minutes < 10 ? "0" + minutes : minutes)
-    time = currentDate.getHours() + ":" + (minutes < 10 ? "0" + minutes : minutes) + ":" + (seconds < 10 ? "0" + seconds : seconds)
-    //finalDate = date + " " + month + ", " + time
-    finalDate = time
-    document.getElementById(dateId).textContent = finalDate
+    document.getElementById(dateId).textContent = new Date().toLocaleTimeString("en-GB")
 }
 
 function updateTimeHook() {
