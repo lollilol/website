@@ -13,7 +13,7 @@ userName = "Deepjyoti"
 bgClassContainer = [
     "social",
     "media",
-    "work",
+    "git",
     "contact",
     "funky",
     "purple",

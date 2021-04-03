@@ -82,7 +82,7 @@ body {
           transition: .1s ease-in; }
     .main #other-content .media h4, .main #other-content .media a:hover {
       color: #6e63fc; }
-    .main #other-content .work h4, .main #other-content .work a:hover {
+    .main #other-content .git h4, .main #other-content .git a:hover {
       color: #4DD0E1; }
     .main #other-content .social h4, .main #other-content .social a:hover {
       color: #FFF176; }

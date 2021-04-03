@@ -12,7 +12,7 @@
       { "name": "twitch", "url": "/twitch" }
     ]
     },
-    { "name": "work", "links": [
+    { "name": "git", "links": [
         { "name": "github", "url": "/github" },
         { "name": "gitlab", "url": "/gitlab" },
         { "name": "notabug", "url": "/notabug" }
