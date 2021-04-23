@@ -53,6 +53,7 @@ body {
     margin: 40px auto;
     padding: 10px 0; }
     .main #other-content .sqr {
+      margin-bottom: 15px;
       vertical-align: top;
       display: inline-block;
       margin-left: 5px;
