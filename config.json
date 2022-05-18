@@ -9,7 +9,7 @@
     { "name": "media", "links": [
       { "name": "youtube", "url": "/yt" },
       { "name": "spotify", "url": "/spotify" },
-      { "name": "twitch", "url": "/twitch" }
+      { "name": "playlist", "url": "/spotify_playlist" }
     ]
     },
     { "name": "git", "links": [
