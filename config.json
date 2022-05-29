@@ -2,7 +2,7 @@
   "squares": [
     { "name": "social", "links": [
         { "name": "reddit", "url": "/reddit" },
-        { "name": "lastfm", "url": "/lastfm" },
+        { "name": "instagram", "url": "/instagram" },
         { "name": "twitter", "url": "/twitter" }
       ]
     },
