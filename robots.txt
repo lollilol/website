@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /list
+Disallow: /legacy
+Disallow: /img
+Disallow: /fonts
+Disallow: /scss
