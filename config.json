@@ -22,7 +22,7 @@
       "name": "contact", "links": [
         { "name": "telegram", "url": "/tg"},
         { "name": "discord", "url": "/discord" },
-        { "name": "mail", "url": "mailto:lollilol@doorcraft.de"}
+        { "name": "mail", "url": "mailto:jascha@doorcraft.de"}
       ]
     }
   ],
