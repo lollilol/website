@@ -21,7 +21,7 @@
     {
       "name": "contact", "links": [
         { "name": "telegram", "url": "/tg"},
-        { "name": "discord", "url": "/discord" },
+        { "name": "discord", "url": "/discord_url" },
         { "name": "mail", "url": "mailto:jascha@doorcraft.de"}
       ]
     }
