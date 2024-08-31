@@ -23,7 +23,7 @@
 </head>
 <body>
   <div>
-    <div id="app" style="position: absolute; top: 16px; left: 16px; width: 725px; height: 464px;">
+    <div id="app" style="position: absolute; top: 16px; left: 16px; width: 725px; height: 464px; display: none;">
       <!-- Webamp will attempt to center itself within this div -->
     </div>
   </div>
@@ -66,10 +66,16 @@
           milkdrop: { position: { x: 275, y: 0 }, size: [7, 12] },
         },
       });
-      function openWinamp()
-      {
-        webamp.renderWhenReady(document.getElementById("app"));
-      }
+
+    webamp.renderWhenReady(document.getElementById("app"));
+
+    document.addEventListener("DOMContentLoaded", function() {
+      document.getElementById("webamp").style.display = "none";
+      document.getElementById("date-text").addEventListener("click", function() {
+          document.getElementById("webamp").style.display = "block";
+          
+      });
+    });
 
       /*document.addEventListener('DOMContentLoaded', function() {
         document.querySelector('#webamp > div > div > div:nth-child(1)').style.transform = 'translate(20px, 20px)';
@@ -85,7 +91,7 @@
             <h1 style="display: none;" id="message-text">Good Morning!</h1>
         </div>
         <div id="date">
-            <a onclick="openWinamp()" id="date-text"></a>
+            <a id="date-text"></a>
         </div>
         <div id="search-bar">
             <input style="display: none;" id="search-bar-input" placeholder="Search something on Kagi"></input>
@@ -93,7 +99,7 @@
         <div id="other-content">
         </div>
         <div id="list">
-          <a href="/list/" id="date-text">List</a>
+          <a href="/list/" class="text">List</a>
         </div>
     </div>
     <!--Custom JS-->

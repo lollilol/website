@@ -21,7 +21,7 @@ body {
 .main {
   width: 100%;
   text-align: center; }
-  .main #date-text {
+  .main #date-text, .text {
     display: block;
     font-size: 1.5em;
     margin-top: 0.83em;
