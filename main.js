@@ -55,8 +55,8 @@ function initSearchBar() {
     document.getElementById(searchBarId).addEventListener("keypress", (event) => {
         if (event.key != 'Enter') return
 
-        // Open google with the search results.
-        googleSearchUrl = "https://www.google.com/search?q="
+        // Open kagi with the search results.
+        googleSearchUrl = "https://www.kagi.com/search?q="
         query = document.getElementById(searchBarId).value.replace(/\ /g, "+")
         document.location = googleSearchUrl + query
     })
