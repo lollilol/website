@@ -66,8 +66,11 @@
           milkdrop: { position: { x: 275, y: 0 }, size: [7, 12] },
         },
       });
-      webamp.renderWhenReady(document.getElementById("app"));
-      
+      function openWinamp()
+      {
+        webamp.renderWhenReady(document.getElementById("app"));
+      }
+
       /*document.addEventListener('DOMContentLoaded', function() {
         document.querySelector('#webamp > div > div > div:nth-child(1)').style.transform = 'translate(20px, 20px)';
         document.querySelector('#webamp > div > div > div:nth-child(2)').style.transform = 'translate(20px, 252px)';
@@ -82,12 +85,15 @@
             <h1 style="display: none;" id="message-text">Good Morning!</h1>
         </div>
         <div id="date">
-            <a href="/list/" id="date-text"></a>
+            <a onclick="openWinamp()" id="date-text"></a>
         </div>
         <div id="search-bar">
             <input style="display: none;" id="search-bar-input" placeholder="Search something on Kagi"></input>
         </div>
         <div id="other-content">
+        </div>
+        <div id="list">
+          <a href="/list/" id="date-text">List</a>
         </div>
     </div>
     <!--Custom JS-->
